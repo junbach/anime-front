@@ -65,7 +65,7 @@ export default class DataTable extends Component<TableProps, TableState> {
   private fetchData = () => monsterService.get().then(data => this.setState({ data, hasLoaded: true }));
 
   render(): ReactNode {
-    const { data, hasLoaded } = this.state;
+    const { data } = this.state;
     const { showCurrentTime } = this.props;
     const cellData: CellTable[] = data.map(it => ({ ...it, key: it.id }));
     return (

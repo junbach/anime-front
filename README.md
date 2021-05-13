@@ -1,11 +1,10 @@
 # React TypeScript sample project
 
-![Pages deployment](https://github.com/junbach/react-ts-sample/actions/workflows/gh-pages.yml/badge.svg)
-![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Fjunbach.github.io%2Freact-ts-sample%2F)
-![GitHub top language](https://img.shields.io/github/languages/top/junbach/react-ts-sample)
-![GitHub](https://img.shields.io/github/license/junbach/react-ts-sample)
-![GitHub package.json version](https://img.shields.io/github/package-json/v/junbach/react-ts-sample)
-![GitHub last commit](https://img.shields.io/github/last-commit/junbach/react-ts-sample)
+![Pages deployment](https://github.com/junbach/anime-front/actions/workflows/gh-pages.yml/badge.svg)
+![GitHub top language](https://img.shields.io/github/languages/top/junbach/anime-front)
+![GitHub](https://img.shields.io/github/license/junbach/anime-front)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/junbach/anime-front)
+![GitHub last commit](https://img.shields.io/github/last-commit/junbach/anime-front)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

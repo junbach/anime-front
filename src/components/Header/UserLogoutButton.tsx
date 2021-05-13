@@ -1,5 +1,5 @@
 import { Button } from "antd";
-import { PureComponent } from "react";
+import { PureComponent, ReactNode } from "react";
 
 interface UserLogoutButtonProps {
   user: string;
@@ -7,7 +7,7 @@ interface UserLogoutButtonProps {
 }
 
 export default class UserLogoutButton extends PureComponent<UserLogoutButtonProps> {
-  render() {
+  render(): ReactNode {
     return <Button>Hello, {this.props.user}</Button>;
   }
 }

@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "license": "MIT",
   "homepage": "/anime-front",
+  "repository": "https://github.com/junbach/anime-front.git",
   "dependencies": {
     "@ant-design/icons": "^4.6.2",
     "antd": "^4.15.3",

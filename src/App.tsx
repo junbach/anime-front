@@ -21,7 +21,7 @@ interface AppState {
   user?: string;
 }
 
-export default class App extends PureComponent<any, AppState> {
+export default class App extends PureComponent<Record<string, unknown>, AppState> {
   state: AppState = {
     user: undefined,
   };
