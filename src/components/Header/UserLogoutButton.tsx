@@ -1,13 +1,8 @@
 import { Button } from "antd";
 import { PureComponent, ReactNode } from "react";
 
-interface UserLogoutButtonProps {
-  user: string;
-  logout: () => void;
-}
-
-export default class UserLogoutButton extends PureComponent<UserLogoutButtonProps> {
+export default class UserLogoutButton extends PureComponent {
   render(): ReactNode {
-    return <Button>Hello, {this.props.user}</Button>;
+    return <Button>Logout</Button>;
   }
 }

@@ -1,27 +1,20 @@
 import "./App.css";
 
-import { SendOutlined } from "@ant-design/icons";
-import { Button, Divider, Layout, message, notification } from "antd";
+import { Layout, message } from "antd";
 import { PureComponent, ReactNode } from "react";
 
+import { BodyContent } from "./components/BodyContent";
 import HeaderContainer from "./components/Header";
 import SearchInput from "./components/Header/SearchInput";
 import UserLoginButton from "./components/Header/UserLoginButton";
-import UserLogoutButton from "./components/Header/UserLogoutButton";
-import logo from "./logo.svg";
 
-const { Footer, Content } = Layout;
-const sendMessage = () =>
-  notification.info({
-    message: "Hello, world!",
-    description: "This is a greeting message sent from the moon",
-  });
+const { Footer } = Layout;
 
 interface AppState {
   user?: string;
 }
 
-export default class App extends PureComponent<Record<string, unknown>, AppState> {
+export default class App extends PureComponent {
   state: AppState = {
     user: undefined,
   };
@@ -29,30 +22,15 @@ export default class App extends PureComponent<Record<string, unknown>, AppState
     this.setState({ user: username });
     message.success(`Login successfully: ${username}`);
   };
-  private userLogout = () => {
-    this.setState({ user: undefined });
-    message.warn("Logout successfully");
-  };
+
   render(): ReactNode {
-    const { user } = this.state;
-    const userContent = this.state.user ? (
-      <UserLogoutButton user={user ?? ""} logout={this.userLogout} />
-    ) : (
-      <UserLoginButton onLogin={this.userLogin} />
-    );
     return (
-      <Layout className={"appLayout"}>
+      <Layout>
         <HeaderContainer>
-          <SearchInput />
-          {userContent}
+          <SearchInput placeholderText={"search anime"} />
+          <UserLoginButton onLogin={this.userLogin} />
         </HeaderContainer>
-        <Content className="appContent">
-          <img src={logo} className="appLogo" alt="logo" />
-          <Divider>Main Content</Divider>
-          <Button onClick={sendMessage} icon={<SendOutlined />}>
-            Send me a message
-          </Button>
-        </Content>
+        <BodyContent showLogo />
         <Footer className="appFooter">Footer</Footer>
       </Layout>
     );
