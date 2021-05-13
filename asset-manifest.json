@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/anime-front/static/css/main.b387f8f6.chunk.css",
-    "main.js": "/anime-front/static/js/main.48cd403a.chunk.js",
-    "main.js.map": "/anime-front/static/js/main.48cd403a.chunk.js.map",
-    "runtime-main.js": "/anime-front/static/js/runtime-main.ee4824a3.js",
-    "runtime-main.js.map": "/anime-front/static/js/runtime-main.ee4824a3.js.map",
+    "main.css": "/anime-front/static/css/main.277918ae.chunk.css",
+    "main.js": "/anime-front/static/js/main.bf7cdf13.chunk.js",
+    "main.js.map": "/anime-front/static/js/main.bf7cdf13.chunk.js.map",
+    "runtime-main.js": "/anime-front/static/js/runtime-main.7276005f.js",
+    "runtime-main.js.map": "/anime-front/static/js/runtime-main.7276005f.js.map",
     "static/css/2.21faa3a9.chunk.css": "/anime-front/static/css/2.21faa3a9.chunk.css",
-    "static/js/2.f909883e.chunk.js": "/anime-front/static/js/2.f909883e.chunk.js",
-    "static/js/2.f909883e.chunk.js.map": "/anime-front/static/js/2.f909883e.chunk.js.map",
-    "static/js/3.0a296060.chunk.js": "/anime-front/static/js/3.0a296060.chunk.js",
-    "static/js/3.0a296060.chunk.js.map": "/anime-front/static/js/3.0a296060.chunk.js.map",
+    "static/js/2.931ab8dd.chunk.js": "/anime-front/static/js/2.931ab8dd.chunk.js",
+    "static/js/2.931ab8dd.chunk.js.map": "/anime-front/static/js/2.931ab8dd.chunk.js.map",
+    "static/js/3.8c8b50eb.chunk.js": "/anime-front/static/js/3.8c8b50eb.chunk.js",
+    "static/js/3.8c8b50eb.chunk.js.map": "/anime-front/static/js/3.8c8b50eb.chunk.js.map",
     "index.html": "/anime-front/index.html",
     "static/css/2.21faa3a9.chunk.css.map": "/anime-front/static/css/2.21faa3a9.chunk.css.map",
-    "static/css/main.b387f8f6.chunk.css.map": "/anime-front/static/css/main.b387f8f6.chunk.css.map",
-    "static/js/2.f909883e.chunk.js.LICENSE.txt": "/anime-front/static/js/2.f909883e.chunk.js.LICENSE.txt",
+    "static/css/main.277918ae.chunk.css.map": "/anime-front/static/css/main.277918ae.chunk.css.map",
+    "static/js/2.931ab8dd.chunk.js.LICENSE.txt": "/anime-front/static/js/2.931ab8dd.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/anime-front/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ee4824a3.js",
+    "static/js/runtime-main.7276005f.js",
     "static/css/2.21faa3a9.chunk.css",
-    "static/js/2.f909883e.chunk.js",
-    "static/css/main.b387f8f6.chunk.css",
-    "static/js/main.48cd403a.chunk.js"
+    "static/js/2.931ab8dd.chunk.js",
+    "static/css/main.277918ae.chunk.css",
+    "static/js/main.bf7cdf13.chunk.js"
   ]
 }
